@@ -1,0 +1,8 @@
+C:\Users\apenate\Desktop\GameOfLife\GameOfLife\bin\Debug\netcoreapp2.2\GameOfLife.deps.json
+C:\Users\apenate\Desktop\GameOfLife\GameOfLife\bin\Debug\netcoreapp2.2\GameOfLife.dll
+C:\Users\apenate\Desktop\GameOfLife\GameOfLife\bin\Debug\netcoreapp2.2\GameOfLife.pdb
+C:\Users\apenate\Desktop\GameOfLife\GameOfLife\obj\Debug\netcoreapp2.2\GameOfLife.csprojAssemblyReference.cache
+C:\Users\apenate\Desktop\GameOfLife\GameOfLife\obj\Debug\netcoreapp2.2\GameOfLife.AssemblyInfoInputs.cache
+C:\Users\apenate\Desktop\GameOfLife\GameOfLife\obj\Debug\netcoreapp2.2\GameOfLife.AssemblyInfo.cs
+C:\Users\apenate\Desktop\GameOfLife\GameOfLife\obj\Debug\netcoreapp2.2\GameOfLife.dll
+C:\Users\apenate\Desktop\GameOfLife\GameOfLife\obj\Debug\netcoreapp2.2\GameOfLife.pdb
