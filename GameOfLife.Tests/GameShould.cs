@@ -19,7 +19,7 @@ namespace GameOfLife.Tests
     {
         public World calculateNextGeneration(World initialWorld)
         {
-            return null;
+            return initialWorld;
         }
     }
 
@@ -33,6 +33,7 @@ namespace GameOfLife.Tests
         {
             Rows = rows;
             Columns = columns;
+            LiveCells = new List<Cell>();
         }
     }
 
