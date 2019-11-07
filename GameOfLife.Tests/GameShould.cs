@@ -10,7 +10,20 @@ namespace GameOfLife.Tests
         public void not_kill_or_create_cells()
         {
             var initialWorld = new World(4, 8);
+
             var outputWorld = new Game().calculateNextGeneration(initialWorld);
+
+            outputWorld.LiveCells.Count.Should().Be(0);
+        }
+
+        [Test]
+        public void kill_last_remained_cell()
+        {
+            var initialWorld = new World(4, 8);
+            initialWorld.AddLiveCell(new Cell(0,0));
+
+            var outputWorld = new Game().calculateNextGeneration(initialWorld);
+
             outputWorld.LiveCells.Count.Should().Be(0);
         }
     }
@@ -35,9 +48,22 @@ namespace GameOfLife.Tests
             Columns = columns;
             LiveCells = new List<Cell>();
         }
+
+        public void AddLiveCell(Cell cell)
+        {
+            LiveCells.Add(cell);
+        }
     }
 
     public class Cell
     {
+        public int Row { get; set; }
+        public int Column { get; set; }
+
+        public Cell(int row, int column)
+        {
+            Row = row;
+            Column = column;
+        }
     }
 }
